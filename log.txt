@@ -1,0 +1,507 @@
+$ bash bash_run.sh
+
+
+Running My network 
+Batch size: 500, Train batches: 100, Test batches: 20
+Using device: cuda
+torch.Size([3072, 3072])
+torch.Size([1000, 1000])
+torch.Size([500, 500])
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 759.9147, Supervised: 0.2714: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:54<00:00,  1.75s/it]
+
+Training finished.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:03<00:00,  6.00it/s]
+
+Test Top-1 Accuracy: 92.56%
+Test Top-3 Accuracy: 98.89%
+
+Batch size: 500, Train batches: 100, Test batches: 20
+Using device: cuda
+torch.Size([3072, 3072])
+torch.Size([1000, 1000])
+torch.Size([500, 500])
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 884.8099, Supervised: 0.1952: 100%|██████████| 100/100 [03:12<00:00,  1.93s/it]
+
+Training finished.
+100%|██████████| 20/20 [00:03<00:00,  5.93it/s]
+Test Top-1 Accuracy: 98.56%
+Test Top-3 Accuracy: 99.85%
+
+
+Batch size: 500, Train batches: 100, Test batches: 20
+Using device: cuda
+torch.Size([3072, 3072])
+torch.Size([1000, 1000])
+torch.Size([500, 500])
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 786.5077, Supervised: 0.1606: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:52<00:00,  1.72s/it] 
+
+Training finished.
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:03<00:00,  6.02it/s] 
+
+Test Top-1 Accuracy: 99.76%
+Test Top-3 Accuracy: 99.96%
+
+
+Batch size: 500, Train batches: 100, Test batches: 20
+Using device: cuda
+torch.Size([3072, 3072])
+torch.Size([1000, 1000])
+torch.Size([500, 500])
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 807.6363, Supervised: 0.1764: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:53<00:00,  1.74s/it] 
+
+Training finished.
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:03<00:00,  5.73it/s] 
+
+Test Top-1 Accuracy: 99.12%
+Test Top-3 Accuracy: 99.74%
+
+
+
+
+
+Using device: cuda
+torch.Size([3072, 3072])
+torch.Size([1000, 1000])
+torch.Size([500, 500])
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 769.9808, Supervised: 0.1975: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:51<00:00,  1.72s/it] 
+
+Training finished.
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:03<00:00,  5.96it/s] 
+
+Test Top-1 Accuracy: 98.38%
+Test Top-3 Accuracy: 99.79%
+
+
+
+
+
+Using device: cuda
+torch.Size([3072, 3072])
+torch.Size([1000, 1000])
+torch.Size([500, 500])
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 916.3552, Supervised: 0.2232: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:52<00:00,  1.73s/it]
+
+Training finished.
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:03<00:00,  5.86it/s] 
+
+Test Top-1 Accuracy: 97.25%
+Test Top-3 Accuracy: 99.74%
+
+
+
+
+
+
+######################### STABLE NET
+
+
+PS D:\School_Stuff\Fall 2025\CN 510\Proj\code\pcn-intro> & C:/Users/ramza/AppData/Local/Programs/Python/Python310/python.exe "d:/School_Stuff/Fall 2025/CN 510/Proj/code/pcn-intro/stable_net.py"
+Batch size: 500, Train batches: 100, Test batches: 20
+Using device: cuda
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 728.1831, Supervised: 0.1295: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:05<00:00,  1.52it/s]
+
+Training finished.
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:01<00:00, 11.53it/s]
+
+Test Top-1 Accuracy: 99.89%
+Test Top-3 Accuracy: 99.99%
+PS D:\School_Stuff\Fall 2025\CN 510\Proj\code\pcn-intro> & C:/Users/ramza/AppData/Local/Programs/Python/Python310/python.exe "d:/School_Stuff/Fall 2025/CN 510/Proj/code/pcn-intro/stable_net.py"
+Batch size: 500, Train batches: 100, Test batches: 20
+Using device: cuda
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 732.8184, Supervised: 0.1334: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:05<00:00,  1.52it/s] 
+
+Training finished.
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:01<00:00, 11.50it/s] 
+
+Test Top-1 Accuracy: 99.63%
+Test Top-3 Accuracy: 99.94%
+PS D:\School_Stuff\Fall 2025\CN 510\Proj\code\pcn-intro> & C:/Users/ramza/AppData/Local/Programs/Python/Python310/python.exe "d:/School_Stuff/Fall 2025/CN 510/Proj/code/pcn-intro/stable_net.py"
+Batch size: 500, Train batches: 100, Test batches: 20
+Using device: cuda
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 875.1884, Supervised: 0.1729: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:05<00:00,  1.52it/s] 
+
+Training finished.
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:01<00:00, 11.53it/s] 
+
+Test Top-1 Accuracy: 84.39%
+Test Top-3 Accuracy: 95.40%
+PS D:\School_Stuff\Fall 2025\CN 510\Proj\code\pcn-intro> & C:/Users/ramza/AppData/Local/Programs/Python/Python310/python.exe "d:/School_Stuff/Fall 2025/CN 510/Proj/code/pcn-intro/stable_net.py"
+Batch size: 500, Train batches: 100, Test batches: 20
+Using device: cuda
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 721.0560, Supervised: 0.1614: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:05<00:00,  1.52it/s]
+
+Training finished.
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:01<00:00, 11.52it/s]
+
+Test Top-1 Accuracy: 96.24%
+Test Top-3 Accuracy: 99.92%
+PS D:\School_Stuff\Fall 2025\CN 510\Proj\code\pcn-intro> & C:/Users/ramza/AppData/Local/Programs/Python/Python310/python.exe "d:/School_Stuff/Fall 2025/CN 510/Proj/code/pcn-intro/stable_net.py"
+Batch size: 500, Train batches: 100, Test batches: 20
+Using device: cuda
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 767.3680, Supervised: 0.1732: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:06<00:00,  1.51it/s]
+
+Training finished.
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:01<00:00, 10.16it/s] 
+
+Test Top-1 Accuracy: 98.04%
+Test Top-3 Accuracy: 99.94%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running stable net
+Batch size: 500, Train batches: 100, Test batches: 20
+Using device: cuda
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 752.8831, Supervised: 0.1831: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:07<00:00,  1.48it/s]
+
+Training finished.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:01<00:00, 11.67it/s]
+
+Test Top-1 Accuracy: 99.46%
+Test Top-3 Accuracy: 99.97%
+Running network
+Batch size: 500, Train batches: 100, Test batches: 20
+Using device: cuda
+torch.Size([3072, 3072])
+torch.Size([1000, 1000])
+torch.Size([500, 500])
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 740.0856, Supervised: 0.2686: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:57<00:00,  1.78s/it]
+
+Training finished.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:03<00:00,  6.06it/s]
+
+Test Top-1 Accuracy: 95.19%
+Test Top-3 Accuracy: 99.54%
+Running stable net
+Batch size: 500, Train batches: 100, Test batches: 20
+Using device: cuda
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 751.2225, Supervised: 0.2203: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:07<00:00,  1.49it/s]
+
+Training finished.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:01<00:00, 11.58it/s]
+
+Test Top-1 Accuracy: 86.96%
+Test Top-3 Accuracy: 99.04%
+Running network
+Batch size: 500, Train batches: 100, Test batches: 20
+Using device: cuda
+torch.Size([3072, 3072])
+torch.Size([1000, 1000])
+torch.Size([500, 500])
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 704.6570, Supervised: 0.2438: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [03:00<00:00,  1.81s/it]
+
+Training finished.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:03<00:00,  5.77it/s]
+
+Test Top-1 Accuracy: 86.24%
+Test Top-3 Accuracy: 99.07%
+Running stable net
+Batch size: 500, Train batches: 100, Test batches: 20
+Using device: cuda
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 753.6740, Supervised: 0.1750: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:09<00:00,  1.45it/s]
+
+Training finished.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:01<00:00, 11.43it/s]
+
+Test Top-1 Accuracy: 96.24%
+Test Top-3 Accuracy: 99.39%
+Running network
+Batch size: 500, Train batches: 100, Test batches: 20
+Using device: cuda
+torch.Size([3072, 3072])
+torch.Size([1000, 1000])
+torch.Size([500, 500])
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 791.8383, Supervised: 0.2931: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:58<00:00,  1.79s/it]
+
+Training finished.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:03<00:00,  6.13it/s]
+
+Test Top-1 Accuracy: 82.14%
+Test Top-3 Accuracy: 95.61%
+Running stable net
+Batch size: 500, Train batches: 100, Test batches: 20
+Using device: cuda
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 868.9454, Supervised: 0.2023: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:06<00:00,  1.51it/s]
+
+Training finished.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:01<00:00, 11.78it/s]
+
+Test Top-1 Accuracy: 98.03%
+Test Top-3 Accuracy: 99.78%
+Running network
+Batch size: 500, Train batches: 100, Test batches: 20
+Using device: cuda
+torch.Size([3072, 3072])
+torch.Size([1000, 1000])
+torch.Size([500, 500])
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 756.4957, Supervised: 0.2255: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [02:56<00:00,  1.77s/it]
+
+Training finished.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:03<00:00,  5.54it/s]
+
+Test Top-1 Accuracy: 90.14%
+Test Top-3 Accuracy: 98.94%
+Running stable net
+Batch size: 500, Train batches: 100, Test batches: 20
+Using device: cuda
+PredictiveCodingNetwork(
+  (layers): ModuleList(
+    (0-2): 3 x PCNLayer()
+  )
+  (readout): Linear(in_features=10, out_features=10, bias=False)
+)
+Starting PCN training...
+Epoch 1 / 1
+Batch Energy: 696.4768, Supervised: 0.1900: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:12<00:00,  1.38it/s]
+
+Training finished.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:01<00:00, 11.02it/s]
+
+Test Top-1 Accuracy: 96.92%
+Test Top-3 Accuracy: 99.90%
